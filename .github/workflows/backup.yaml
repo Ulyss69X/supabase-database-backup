@@ -56,6 +56,6 @@ jobs:
 
       - name: Commit backups
         if: env.BACKUP_ENABLED == 'true'
-        uses: Ulyss69X/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Supabase backup
